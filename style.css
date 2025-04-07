@@ -1,0 +1,154 @@
+.chat-side{
+  background-color: #333333;
+  width: 300px;
+  height: 100vh;
+}
+
+.chat-main{
+  background-color: #1a1d21;
+  width: calc(100% - 300px);
+  height: 100vh;
+}
+
+.wrapper{
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.side-header{
+  width: 100%;
+  height: 100px;
+  background-color: #595959;
+  padding: 40px 20px;
+}
+
+.side-box{
+  width: 260px;
+  height: 20px;
+  display: flex;
+  position: relative;
+}
+
+.groups{
+  width: 100%;
+  height: 100%;
+  background-color: #333333;
+}
+
+.main-header{
+  width: 100%;
+  height: 100px;
+  background-color: #3f3f3f;
+  color: #eeeeee;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.messages{
+  width: 100%;
+  height: 100%;
+  background-color: #1a1d21;
+}
+
+.form{
+  width: 95%;
+  height: 90px;
+  background-color: #595959;
+  position: fixed;
+  bottom: 0;
+  padding: 20px 40px;
+}
+
+.user-name{
+  position: absolute;
+  left: 0;
+  color: #eeeeee;
+  font-weight: bold;
+}
+
+.menu{
+  position: absolute;
+  right: 0;
+  display: flex;
+  color: #eeeeee;
+  font-weight: bold;
+}
+
+.new-group{
+  margin: 0 5px 0 0;
+  color: #eeeeee;
+}
+
+p {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+a{
+  color: #eeeeee;
+  font-size: 16px;
+}
+
+.edit-btn{
+  color: #eeeeee;
+  font-size: 16px;
+  border: solid 1px;
+  padding: 15px 20px;
+}
+
+.edit-user{
+  color: #eeeeee;
+}
+
+.member-list{
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-leftbox{
+  display: flex;
+  margin: 15px;
+  color: #eeeeee;
+  font-size: 12px;
+}
+
+.member{
+  margin: 0 5px;
+}
+
+.current-group{
+  color: #eeeeee;
+  font-size: 20px;
+}
+
+.input-text{
+  width: 100%;
+  color: #434a54;
+  font-size: 16px;
+  border: none;
+  padding: 0 15px;
+  margin: 0 15px 0 0;
+  display: flex;
+  background-color: #eeeeee;
+}
+
+.new-message{
+  width: 90%;
+  display: flex;
+  padding: 20px 40px;
+}
+
+.submit-btn{
+  display: block;
+  width: 100px;
+  padding: 30px;
+  color: #1a1d21;
+  background-color: #eeeeee;
+  font-size: 15px;
+}
